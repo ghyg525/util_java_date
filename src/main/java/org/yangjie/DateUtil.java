@@ -41,5 +41,5 @@ public class DateUtil {
 	public static String formatTime(Date date) {
 		return timeFormat.format(date);
 	}
-
+	
 }

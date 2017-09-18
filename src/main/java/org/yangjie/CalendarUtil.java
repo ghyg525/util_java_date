@@ -186,25 +186,5 @@ public class CalendarUtil {
 		calendar.add(Calendar.DATE, amount);
 		return dateFormat.format(calendar.getTime());
 	}
-	
-	
-	
-	public static void main(String[] args) {
-		System.out.println("当天日期:" + getToday());
-		System.out.println("昨天日期:" + getYesterday());
-		System.out.println("明天日期:" + getTomorrow());
-		System.out.println("本周一日期:" + getMondayOfWeek());
-		System.out.println("上周一日期:" + getMondayOfLastWeek());
-		System.out.println("下周一日期:" + getMondayOfNextWeek());
-		System.out.println("本周日日期:" + getSundayOfWeek());
-		System.out.println("上周日日期:" + getSundayOfLastWeek());
-		System.out.println("下周日日期:" + getSundayOfNextWeek());
-		System.out.println("本月第一天日期:" + getFirstDayOfMonth());
-		System.out.println("上月第一天日期:" + getFirstDayOfLastMonth());
-		System.out.println("下月第一天日期:" + getFirstDayOfNextMonth());
-		System.out.println("本月最后一天日期:" + getLastDayOfMonth());
-		System.out.println("上月最后一天日期:" + getLastDayOfLastMonth());
-		System.out.println("下月最后一天日期:" + getLastDayOfNextMonth());
-	}
 
 }
